@@ -1,0 +1,81 @@
+.pros {
+}
+
+.section {
+  @media screen and (max-width: 1199px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
+.pros__list {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -30px;
+    margin-bottom: -30px;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+}
+
+.pros__item {
+  @media screen and (max-width: 479px) {
+    width: 100%;
+  }
+
+  @media screen and (min-width: 480px) {
+    width: 450px;
+    margin-bottom: 30px;
+  }
+
+  &:last-child {
+    @media screen and (max-width: 767px) {
+      margin-bottom: 0px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    flex-basis: calc(100% / 2 - 30px);
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+.pros__icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+
+  background-color: $background-color;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.pros__description {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+
+  @media screen and (max-width: 768px) {
+    text-align: center;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-top: 0px;
+  }
+}
+
+.pros__text {
+  color: $secondary-text-color;
+  line-height: 1.7;
+}

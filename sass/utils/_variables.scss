@@ -1,0 +1,52 @@
+$primary-text-color: #212121;
+$secondary-text-color: #757575;
+$text-color: #ffffff;
+$primary-background-color: #e5e5e5;
+$secondary-background-color: #2f303a;
+$background-color: #f5f4fa;
+$accent-color: #2196f3;
+$accent-color-hover: #188ce8;
+$contacts-footer-color: rgba(255, 255, 255, 0.6);
+$outline-color: #eeeeee;
+$border-color: #ececec;
+$primary-font: Roboto;
+$secondary-font: Raleway;
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.body {
+  color: var(--primary-text-color);
+  font-family: $primary-font, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
