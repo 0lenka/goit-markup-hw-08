@@ -129,7 +129,15 @@
 }
 
 .card__thumb-text {
-  padding: 63px 24px;
+  padding: 77px 24px;
+
+  @media screen and (min-width: 768px) {
+    padding: 49px 24px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding: 63px 24px;
+  }
 }
 
 .card__description {
